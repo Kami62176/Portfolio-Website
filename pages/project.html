@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../beauty/main.css"/>
+        <link rel="stylesheet" href="../beauty/project.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="ProjectPresentation">
+                <img class="ProjectShowcase" src="../images/TetrisGameImage.PNG">
+                <section class="ProjectDescription">
+                    <h2 class="title">Tetris</h2>
+                    <h4>Simple game of Tetris. You can set the speed of the game and start playing.</h4>
+                </section>
+            </section>
+            <section class="TechnologiesSection">
+                <h2 class="title">Technologies</h2>
+                <h4>I used Windows Presentation Foundation (WPF) with C# and XAML. I took an Object-Oriented
+                    approach making this game, designing models for all the different componenets.
+                </h4>
+            </section>
+
+            <section class="ExchangeSection">
+                <img class="ProjectShowcase" src="../images/Prometheus Dashboard 4.PNG">
+                <h2 class="title">Distributed Video Game Exchange</h2>
+                <h4>This is a Grafana dashboard for a video game exchange system that can handle over 10,000 requests a 
+                    minute.
+                </h4>
+            </section>
+            <section class="TechnologiesSection">
+                <h2 class="title">Technologies</h2>
+                <h4>
+                    I distributed the system used Docker to containerize all the different services. I used NGINX as a reverse proxy
+                    to distribute the requests between the 10 API instances. The APIs were generated using OpenAPI nodejs-express-generator.
+                    I used a Mongo Database for persistence and I used Kafka as my message stream for my standalone email service. Then I used
+                    Prometheus to scrape metrics from all my services and used Grafana to visualize the different metrics. 
+                </h4>
+            </section>
+        </main>
+        <footer>
+            <span>&copy; Jose Perez-Benitez</span>
+        </footer>
+    </body>
+</html>

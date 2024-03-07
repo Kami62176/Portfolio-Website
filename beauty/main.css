@@ -1,0 +1,53 @@
+body {
+    --main-font-family: Trebuchet MS;
+    background-color: #C3F0FE;
+}
+
+header * {
+    display: inline-flex;
+    justify-content: center;
+    font-family: var(--main-font-family);
+}
+
+body * {
+  font-family: var(--main-font-family);
+}
+
+nav * {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #3d9a5b;
+}
+
+nav ul {
+    width: 50%;
+}
+
+nav li {
+    width: 33%;
+}
+
+nav a {
+    
+    width: 100%;
+    font-size: 2vw;
+}
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+footer {
+    margin: 1%;
+    font-size: 1vw;
+}
+
+.title {
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}

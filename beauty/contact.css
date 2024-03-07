@@ -1,0 +1,18 @@
+.ContactMePresentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.contactLinks * {
+    width: 4%;
+    cursor: pointer;
+    margin: 1%;
+}
